@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+	<h1>Weird Trivia</h1>
+	
+	<div id="buttonStart">
+  		<button id="start" class="submit">Start</button>
+	</div>
+	
+	<form id="formPlay" method="get">
+
+		<div id="clock">Time Remaining</div>
+
+		<div class = "question" id = "one">
+			<h3 id = "q1Text"></h3>
+	  		<input type="radio" name="q1" id="a1" value="2 days"> 2 days
+	  		<input type="radio" name="q1" id="a2" value="46 days"> 46 days
+	  		<input type="radio" name="q1" id="a3" value="87 days"> 87 days<br>
+	  	</div>
+		
+		<div class = "question" id = "two">
+			<h3 id = "q2Text"></h3>
+	  		<input type="radio" name="q2" id="q2a1" value="True"> True
+	  		<input type="radio" name="q2" id="q2a2" value="False"> False<br>
+		
+		<div class = "question" id = "three">
+			<h3 id = "q3Text"></h3>
+	  		<input type="radio" name="q3" id="q3a1" value="Eyes"> Eyes
+	  		<input type="radio" name="q3" id="q3a2" value="Nose"> Nose
+	  		<input type="radio" name="q3" id="q3a3" value="Tonsils"> Tonsils<br>
+		
+		<div class = "question" id = "four">
+			<h3 id = "q4Text"></h3>
+			<input type="radio" name="q4" id="q4a1" value="Neil Armstrong"> Neil Armstrong
+	  		<input type="radio" name="q4" id="q4a2" value="Buzz Aldrin"> Buzz Aldrin
+	  		<input type="radio" name="q4" id="q4a3" value="Michael Collins"> Michael Collins<br>
+
+		<div class = "question" id = "five">
+			<h3 id = "q5Text"></h3>
+	  		<input type="radio" name="q5" id="q5a1" value="The Birds"> The Birds
+	  		<input type="radio" name="q5" id="q5a2" value="Rear Window"> Rear Window
+	  		<input type="radio" name="q5" id="q5a3" value="Psycho"> Psycho<br>
+
+		<div class = "question" id = "six">
+			<h3 id = "q6Text"></h3>
+	  		<input type="radio" name="q6" id="q6a1" value="Hairspray"> Hairspray
+	  		<input type="radio" name="q6" id="q6a2" value="Jello"> Jello
+	  		<input type="radio" name="q6" id="q6a3" value="Motor Oil"> Motor Oil<br>
+
+		<div class = "question" id = "seven">
+			<h3 id = "q7Text"></h3>
+	  		<input type="radio" name="q7" id="q7a1" value="15"> 15
+	  		<input type="radio" name="q7" id="q7a2" value="23"> 23
+	  		<input type="radio" name="q7" id="q7a3" value="10"> 10<br>
+
+		<div class = "question" id = "eight">
+			<h3 id = "q8Text"></h3>
+	  		<input type="radio" name="q8" id="q8a1" value="60,000"> 60,000
+	  		<input type="radio" name="q8" id="q8a2" value="100,000"> 100,000
+	  		<input type="radio" name="q8" id="q8a3" value="40,000"> 40,000<br>
+
+		<div class = "submit" id = "submitAnswers">
+	  		<input type="submit" value="Done!">
+	</form>
+
+	<form id="formResults">
+		<div id="done">All Done!</div>
+		<div id="correct"></div>
+		<div id="wrong"></div>
+		<div id="unanswered"></div>
+	</form>
+
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+	
+</body>
+</html>
